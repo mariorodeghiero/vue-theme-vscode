@@ -1,0 +1,22 @@
+{
+    "name": "vue-theme",
+    "displayName": "vue-theme",
+    "description": "Theme inspired by vue.js",
+    "version": "0.0.1",
+    "publisher": "vue-theme",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "vue-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/vue-theme-color-theme.json"
+            }
+        ]
+    }
+}
