@@ -1,6 +1,5 @@
 {
 	"name": "vue-theme",
-	"type": "dark",
 	"colors": {
 		"panel.background": "#002b36",
 		"panelTitle.activeBorder": "#19f9d8",
@@ -68,5 +67,77 @@
 		"textLink.foreground": "#f3efef"
 	},
 	"tokenColors": [
+			{
+				"name": "comentarios",
+				"scope": "comment",
+				"settings": {
+					"foreground": "#8a8787",
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"name": "const let function",
+				"scope": "storage.type",
+				"settings": {
+					"foreground": "#19f9d7e3"
+				}
+			},
+			{
+				"name": "string between quotes and template literals",
+				"scope": "string.quoted.double, string.template",
+				"settings": {
+					"foreground": "#80cbc4",
+					"fontStyle": "italic "
+				}
+			},
+			{
+				"name": "color quotes double, simple and template",
+				"scope": "punctuation.definition.string.begin, punctuation.definition.string.end, punctuation.definition.string.template.begin, punctuation.definition.string.template.end",
+				"settings": {
+					"foreground": "#00acc1"
+				}
+			},
+			{
+				"name": "template expression ${}",
+				"scope": "punctuation.accessor, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end",
+				"settings": {
+					"foreground": "#FFCC95"
+				}
+			},
+			{
+				"name": "sigle string quote ",
+				"scope": "string.quoted.single",
+				"settings": {
+					"foreground": "#00acc1"
+				}
+			},
+			{
+				"name": "this",
+				"scope": "variable.language.this",
+				"settings": {
+					"foreground": "#f48fb1"
+				}
+			},
+			{
+				"name": "variable object",
+				"scope": "variable.other.object.property, variable.other.property, meta.template.expression",
+				"settings": {
+					"foreground": "#19f9d7e3"
+				}
+			},
+			{
+				"name": "keys",
+				"scope": "meta.embedded.line",
+				"settings": {
+					"foreground": "#FFCC95"
+				}
+			},
+			{
+				"name": "number array",
+				"scope": "constant.numeric.decimal",
+				"settings": {
+					"foreground": "#00838f"
+				}
+			}
 	]
 }
