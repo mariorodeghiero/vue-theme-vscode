@@ -86,7 +86,7 @@
 				"name": "string between quotes and template literals",
 				"scope": "string.quoted.double, string.template",
 				"settings": {
-					"foreground": "#00acc1"
+					"foreground": "#00abc1da"
 				}
 			},
 			{
@@ -97,14 +97,20 @@
 				}
 			},
 			{
-				"scope": "keyword.control.flow, keyword.control.loop",
+				"scope": "keyword.control.loop",
 				"settings": {
 					"foreground": "#079ba8"
 				}
 			},
 			{
+				"scope": "keyword.control.flow, keyword.operator.new",
+				"settings": {
+					"foreground": "#00e5ffcc"
+				}
+			},
+			{
 				"name": "template expression ${} and comparation",
-				"scope": "punctuation.accessor, keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment, keyword.operator.relational, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end",
+				"scope": "punctuation.accessor, keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment, keyword.operator.relational, keyword.operator, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end,",
 				"settings": {
 					"foreground": "#FFCC95"
 				}
@@ -119,49 +125,55 @@
 				"name": "sigle string quote ",
 				"scope": "string.quoted.single",
 				"settings": {
-					"foreground": "#00acc1"
+					"foreground": "#00abc1de"
 				}
 			},
 			{
 				"name": "this",
 				"scope": "variable.language.this, constant.language.boolean.true, constant.language.boolean.false, constant.language.undefined, constant.language.null",
 				"settings": {
-					"foreground": "#f48fb1"
+					"foreground": "#f48fb1dc"
 				}
 			},
 			{
 				"name": "variable object",
-				"scope": "variable.other.object.property, variable.other.property, meta.template.expression",
+				"scope": "variable.other.object.property, variable.other.property, meta.template.expression, support.variable.property, variable.language.super",
 				"settings": {
-					"foreground": "#FF2C6D"
+					"foreground": "#ff2c6bf1"
 				}
 			},
 			{
 				"name": "keys",
-				"scope": "meta.embedded.line, variable.other.readwrite",
+				"scope": "meta.embedded.line, variable.other.object, variable.other.readwrite, entity.name.type.class, entity.name.type,  entity.other.inherited-class, variable.parameter",
 				"settings": {
-					"foreground": "#eceff1"
+					"foreground": "#a1d7da"
 				}
 			},
 			{
 				"name": "number ",
 				"scope": "constant.numeric.decimal",
 				"settings": {
-					"foreground": "#ff5722"
+					"foreground": "#ff5622de"
 				}
 			},
 			{
 				"name": "console.log",
-				"scope": "support.class.console, support.function.console",
+				"scope": "support.class.console, support.function.console, meta.object-literal.key",
 				"settings": {
-					"foreground": "#adab8d"
+					"foreground": "#ffcc95e7"
 				}
 			},
 			{
 				"name": "function and if/else",
-				"scope": "storage.type.function, keyword.control.conditional, support.function.dom",
+				"scope": " entity.name.function,  keyword.control.conditional, support.function.dom, support.variable.dom, storage.modifier, support.function",
 				"settings": {
 					"foreground": "#079ba8"
+				}
+			},
+			{
+				"scope": " storage.type.function",
+				"settings": {
+					"foreground": "#f48fb1"
 				}
 			},
 			{
