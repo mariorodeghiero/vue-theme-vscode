@@ -79,15 +79,14 @@
 				"name": "const let function",
 				"scope": "storage.type",
 				"settings": {
-					"foreground": "#19f9d7e3"
+					"foreground": "#FF2C6D"
 				}
 			},
 			{
 				"name": "string between quotes and template literals",
 				"scope": "string.quoted.double, string.template",
 				"settings": {
-					"foreground": "#80cbc4",
-					"fontStyle": "italic "
+					"foreground": "#00acc1"
 				}
 			},
 			{
@@ -98,10 +97,22 @@
 				}
 			},
 			{
-				"name": "template expression ${}",
-				"scope": "punctuation.accessor, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end",
+				"scope": "keyword.control.flow, keyword.control.loop",
+				"settings": {
+					"foreground": "#079ba8"
+				}
+			},
+			{
+				"name": "template expression ${} and comparation",
+				"scope": "punctuation.accessor, keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment, keyword.operator.relational, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end",
 				"settings": {
 					"foreground": "#FFCC95"
+				}
+			},
+			{
+				"scope": "keyword.control.switch",
+				"settings": {
+					"foreground": "#079ba8"
 				}
 			},
 			{
@@ -113,7 +124,7 @@
 			},
 			{
 				"name": "this",
-				"scope": "variable.language.this",
+				"scope": "variable.language.this, constant.language.boolean.true, constant.language.boolean.false, constant.language.undefined, constant.language.null",
 				"settings": {
 					"foreground": "#f48fb1"
 				}
@@ -122,21 +133,54 @@
 				"name": "variable object",
 				"scope": "variable.other.object.property, variable.other.property, meta.template.expression",
 				"settings": {
-					"foreground": "#19f9d7e3"
+					"foreground": "#FF2C6D"
 				}
 			},
 			{
 				"name": "keys",
-				"scope": "meta.embedded.line",
+				"scope": "meta.embedded.line, variable.other.readwrite",
+				"settings": {
+					"foreground": "#eceff1"
+				}
+			},
+			{
+				"name": "number ",
+				"scope": "constant.numeric.decimal",
+				"settings": {
+					"foreground": "#ff5722"
+				}
+			},
+			{
+				"name": "console.log",
+				"scope": "support.class.console, support.function.console",
+				"settings": {
+					"foreground": "#adab8d"
+				}
+			},
+			{
+				"name": "function and if/else",
+				"scope": "storage.type.function, keyword.control.conditional, support.function.dom",
+				"settings": {
+					"foreground": "#079ba8"
+				}
+			},
+			{
+				"name": "json config",
+				"scope": "support.type.property-name.json, punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json",
 				"settings": {
 					"foreground": "#FFCC95"
 				}
 			},
 			{
-				"name": "number array",
-				"scope": "constant.numeric.decimal",
+				"scope": "constant.language.json",
 				"settings": {
-					"foreground": "#00838f"
+					"foreground": "#00acc1"
+				}
+			},
+			{
+				"scope": "constant.language.json, constant.numeric.json",
+				"settings": {
+					"foreground": "#ee475e"
 				}
 			}
 	]
