@@ -97,6 +97,19 @@
 				}
 			},
 			{
+				"scope": "meta.brace.square.js, meta.brace.round.js, punctuation.terminator.statement.js",
+				"settings": {
+					"foreground": "#c5c5c5f1"
+				}
+			},
+			{
+				"name": "{} , ()",
+				"scope": "punctuation.separator.comma.js, punctuation.definition.block.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js",
+				"settings": {
+					"foreground": "#c5c5c5f1"
+				}
+			},
+			{
 				"scope": "keyword.control.loop",
 				"settings": {
 					"foreground": "#079ba8"
@@ -193,6 +206,40 @@
 				"scope": "constant.language.json, constant.numeric.json",
 				"settings": {
 					"foreground": "#ee475e"
+				}
+			},
+			{
+				"name": "html tag",
+				"scope": "entity.name.tag.structure.any.html, entity.name.tag.html, entity.name.tag.inline.any.html, entity.name.tag.block.any.html, entity.name.tag.other.html, meta.tag.sgml.doctype.html",
+				"settings": {
+					"foreground": "#ff2c6bf1"
+				}
+			},
+			{
+				"name": "src & alt ...",
+				"scope": "entity.other.attribute-name.html, entity.other.attribute-name.id.html",
+				"settings": {
+					"foreground": "#ffcc95ee"
+				}
+			},
+			{
+				"name": "gt and lt",
+				"scope": "punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html",
+				"settings": {
+					"foreground": "#c5c5c5f1"
+				}
+			},
+			{
+				"scope": "meta.tag.structure.any.html",
+				"settings": {
+					"foreground": "#c5c5c5f1"
+				}
+			},
+			{
+				"name": "text html",
+				"scope": "text.html.basic",
+				"settings": {
+					"foreground": "#bdbdbd"
 				}
 			}
 	]
