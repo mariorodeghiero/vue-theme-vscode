@@ -180,11 +180,17 @@
 			},
 			{
 				"name": "function and if/else",
-				"scope": " entity.name.function,  keyword.control.conditional, support.function.dom, support.variable.dom, storage.modifier, support.function",
+				"scope": " support.variable.dom, storage.modifier, support.function",
 				"settings": {
 					"foreground": "#079ba8"
 				}
-			},
+      },
+      {
+        "scope": "entity.name.function",
+        "settings": {
+          "foreground": "#09cbdd"
+        }
+      },
 			{
 				"scope": " storage.type.function",
 				"settings": {
@@ -197,7 +203,20 @@
 				"settings": {
 					"foreground": "#FFCC95"
 				}
-			},
+      },
+      {
+        "name": "if else",
+        "scope": "keyword.control.conditional",
+        "settings": {
+          "foreground": "#09cbdd"
+        }
+      },
+      {
+        "scope": "support.function.dom",
+        "settings": {
+          "foreground": "#ffcc95e3"
+        }
+      },
 			{
 				"scope": "constant.language.json",
 				"settings": {
@@ -300,7 +319,7 @@
       },
       {
         "name": "value numeric",
-        "scope": "constant.numeric.css, support.function.misc.css, punctuation.separator.list.comma.css",
+        "scope": "constant.numeric.css, support.function.url.css, support.function.misc.css, punctuation.separator.list.comma.css",
         "settings": {
           "foreground": "#ffcc95e7"
         }
@@ -310,6 +329,39 @@
         "scope": "support.constant.font-name.css, keyword.other.unit.percentage.css, keyword.other.unit.px.css, keyword.other.unit.rem.css",
         "settings": {
           "foreground": "#f06292"
+        }
+      },
+      {
+        "name": "import",
+        "scope": "keyword.control.at-rule.import.css, meta.property-value.css, support.type.vendored.property-name.css",
+        "settings": {
+          "foreground": "#f06292"
+        }
+      },
+      {
+        "name": "string link",
+        "scope": "string.quoted.double.css, constant.character.escape.codepoint.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.css, string.unquoted.attribute-value.css",
+        "settings": {
+          "foreground": "#64ffdbda"
+        }
+      },
+      {
+        "name": "markdown",
+        "scope": "markup.heading.markdown",
+        "settings": {
+          "foreground": "#ffcc95e7"
+        }
+      },
+      {
+        "scope": "meta.paragraph.markdown",
+        "settings": {
+          "foreground": "#00abc1de"
+        }
+      },
+      {
+        "scope": "beginning.punctuation.definition.list.markdown",
+        "settings": {
+          "foreground": "#64ffdbda"
         }
       }
 	]

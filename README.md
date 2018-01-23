@@ -1,7 +1,9 @@
 
 # Vue Theme vscode
 
-This repository is used to develop my personal theme for the vscode editor. The name de Vue Theme, because it was inspired by the vue.js 💚.
+This repository is used to develop my personal theme for the vscode editor. The name de Vue Theme, because it was inspired by vue.js.
+
+![Example running](src/img/example-1.gif)
 
 ## Getting Started
 
@@ -29,7 +31,7 @@ then you should follow the steps of the links below.
 
 ## Built With
 
-* [vscode]() - vscode editor
+* [vscode](https://code.visualstudio.com/download) - vscode editor
 * [yo code](https://code.visualstudio.com/docs/extensions/yocode) - Extension Generator
 * [vsce](https://code.visualstudio.com/docs/extensions/publish-extension) - Publishing Tool Reference
 
@@ -51,5 +53,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 
 
-* [**Roberto Achar**](https://github.com/ribeiroevandro) - For some ideas that helped me to develop this theme.
+* [**Roberto Achar**](https://github.com/robertoachar) - For some ideas that helped me to develop this theme.
 
