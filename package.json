@@ -2,13 +2,21 @@
     "name": "vue-theme",
     "displayName": "Vue Theme",
     "description": "Theme inspired by vue.js",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "mariorodeghiero",
+    "galleryBanner": {
+      "color": "#002b36",
+      "theme": "dark"
+    },
     "engines": {
         "vscode": "^1.19.0"
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+      "VSCode",
+      "Themes"
     ],
     "bugs": {
         "url": "https://github.com/mariorodeghiero/vue-theme-vscode/issues"
@@ -21,7 +29,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "vue-theme",
+                "label": "Vue Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/vue-theme-color-theme.json"
             }
