@@ -1,13 +1,55 @@
-# README
-## This is the README for your extension "vue-theme"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+# Vue Theme vscode
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+This repository is used to develop my personal theme for the vscode editor. The name de Vue Theme, because it was inspired by the vue.js 💚.
 
-**Enjoy!**
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install and create your theme based on Vue Theme .
+
+* vscode editor
+* node.js
+* yo code
+* vsce
+
+
+### Installing
+
+```
+npm install -g yo generator-code
+npm install -g vsce
+```
+
+then you should follow the steps of the links below.
+
+
+## Built With
+
+* [vscode]() - vscode editor
+* [yo code](https://code.visualstudio.com/docs/extensions/yocode) - Extension Generator
+* [vsce](https://code.visualstudio.com/docs/extensions/publish-extension) - Publishing Tool Reference
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+
+## Authors
+
+* [Mário Antônio do Amaral Rodeghiero](https://github.com/mariorodeghiero)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+
+
+* [**Roberto Achar**](https://github.com/ribeiroevandro) - For some ideas that helped me to develop this theme.
+
