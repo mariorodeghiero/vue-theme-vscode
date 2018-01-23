@@ -3,7 +3,7 @@
 
 This repository is used to develop my personal theme for the vscode editor. The name de Vue Theme, because it was inspired by vue.js.
 
-![Example running](src/img/example-1.gif)
+![Example running](img/example-1.gif)
 
 ## Getting Started
 
