@@ -1,33 +1,21 @@
 
-# Vue Theme vscode
+# Vue Theme
 
-This repository is used to develop my personal theme for the vscode editor. The name de Vue Theme, because it was inspired by vue.js.
+This theme was created for the vscode editor. The name Vue Theme, because it was inspired by vue.js.
 
+### Welcome Page
 ![Example running](img/example-1.gif)
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install and create your theme based on Vue Theme .
-
-* vscode editor
-* node.js
-* yo code
-* vsce
-
+### Code example `(html, css, MD, json, js)`
+![Example2 running](img/example-2.gif)
 
 ### Installing
 
-```
-npm install -g yo generator-code
-npm install -g vsce
-```
-
-then you should follow the steps of the links below.
-
+1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
+2. Search for `Vue Theme` -  by **Mário Antônio do Amaral Rodeghiero**
+3. Click **Install** to install it.
+4. Click **Reload** to reload the your editor
+5. Code > Preferences > Color Theme > **Vue Theme**
 
 ## Built With
 
@@ -39,19 +27,15 @@ then you should follow the steps of the links below.
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-
 ## Authors
 
 * [Mário Antônio do Amaral Rodeghiero](https://github.com/mariorodeghiero)
-
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-
-
 
 * [**Roberto Achar**](https://github.com/robertoachar) - For some ideas that helped me to develop this theme.
 
