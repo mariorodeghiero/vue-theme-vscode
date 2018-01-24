@@ -30,15 +30,17 @@
   "engines": {
     "vscode": "^1.19.0"
   },
-    "scripts": {
-      "build": "vsce package"
-    },
+  "scripts": {
+    "build": "vsce package"
+  },
   "contributes": {
-    "themes": [{
-      "label": "Vue Theme",
-      "uiTheme": "vs-dark",
-      "path": "./themes/vue-theme-color-theme.json"
-    }]
+    "themes": [
+      {
+        "label": "Vue Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vue-theme-color-theme.json"
+      }
+    ]
   },
   "license": "SEE LICENSE IN LICENSE"
 }
