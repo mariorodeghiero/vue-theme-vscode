@@ -1,16 +1,18 @@
 # Vue Theme
 
-This theme was created for the vscode editor. The name Vue Theme, because it was inspired by vue.js.
+This theme was created for the VS Code editor. The name Vue Theme, because it was inspired by vue.js.
 
 ### Welcome Page
+
 ![Example running](images/example-1.gif)
 
 ### Code example `(html, css, MD, json, js)`
+
 ![Example2 running](images/example-2.gif)
 
 ### Installing
 
-1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
+1. Open **Extensions** sidebar panel in VS Code: `View → Extensions`
 2. Search for `Vue Theme` -  by **Mário Antônio do Amaral Rodeghiero**
 3. Click **Install** to install it.
 4. Click **Reload** to reload the your editor
@@ -18,7 +20,7 @@ This theme was created for the vscode editor. The name Vue Theme, because it was
 
 ## Built With
 
-* [vscode](https://code.visualstudio.com/download) - vscode editor
+* [vscode](https://code.visualstudio.com/download) - VS Code editor
 * [yo code](https://code.visualstudio.com/docs/extensions/yocode) - Extension Generator
 * [vsce](https://code.visualstudio.com/docs/extensions/publish-extension) - Publishing Tool Reference
 
