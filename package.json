@@ -1,41 +1,44 @@
 {
-    "name": "vue-theme",
-    "displayName": "Vue Theme",
-    "version": "1.0.0",
-    "description": "Theme inspired by vue.js",
-    "publisher": "mariorodeghiero",
-    "galleryBanner": {
-      "color": "#002b36",
-      "theme": "dark"
+  "name": "vue-theme",
+  "version": "1.0.0",
+  "displayName": "Vue Theme",
+  "description": "Theme inspired by vue.js",
+  "publisher": "mariorodeghiero",
+  "icon": "images/logo.png",
+  "galleryBanner": {
+    "color": "#002b36",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/mariorodeghiero/vue-theme-vscode/blob/master/README.md",
+  "author": {
+    "name": "mariorodeghiero"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mariorodeghiero/vue-theme-vscode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mariorodeghiero/vue-theme-vscode/issues"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "VSCode",
+    "Themes"
+  ],
+  "engines": {
+    "vscode": "^1.19.0"
+  },
+    "scripts": {
+      "build": "vsce package"
     },
-    "author": {
-       "name": "mariorodeghiero"
-    },
-    "engines": {
-        "vscode": "^1.19.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-      "VSCode",
-      "Themes"
-    ],
-    "bugs": {
-        "url": "https://github.com/mariorodeghiero/vue-theme-vscode/issues"
-    },
-    "homepage": "https://github.com/mariorodeghiero/vue-theme-vscode/blob/master/README.md",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/mariorodeghiero/vue-theme-vscode.git"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Vue Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/vue-theme-color-theme.json"
-            }
-        ]
-    }
+  "contributes": {
+    "themes": [{
+      "label": "Vue Theme",
+      "uiTheme": "vs-dark",
+      "path": "./themes/vue-theme-color-theme.json"
+    }]
+  },
+  "license": "SEE LICENSE IN LICENSE"
 }
