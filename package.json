@@ -10,9 +10,6 @@
     "theme": "dark"
   },
   "homepage": "https://github.com/mariorodeghiero/vue-theme-vscode/blob/master/README.md",
-  "author": {
-    "name": "mariorodeghiero"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mariorodeghiero/vue-theme-vscode.git"
