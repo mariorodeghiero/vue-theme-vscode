@@ -70,7 +70,8 @@
     "textLink.activeForeground": "#b3b8b6e5",
     "textLink.foreground": "#00abc1de"
   },
-  "tokenColors": [{
+  "tokenColors": [
+    {
       "name": "comentarios",
       "scope": "comment",
       "settings": {
@@ -138,7 +139,7 @@
       }
     },
     {
-      "name": "sigle string quote ",
+      "name": "sigle string quote",
       "scope": "string.quoted.single",
       "settings": {
         "foreground": "#00abc1de"
@@ -166,7 +167,7 @@
       }
     },
     {
-      "name": "number ",
+      "name": "number",
       "scope": "constant.numeric.decimal",
       "settings": {
         "foreground": "#ff5622de"
