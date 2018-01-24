@@ -1,12 +1,15 @@
 {
     "name": "vue-theme",
     "displayName": "Vue Theme",
-    "description": "Theme inspired by vue.js",
     "version": "1.0.0",
+    "description": "Theme inspired by vue.js",
     "publisher": "mariorodeghiero",
     "galleryBanner": {
       "color": "#002b36",
       "theme": "dark"
+    },
+    "author": {
+       "name": "mariorodeghiero"
     },
     "engines": {
         "vscode": "^1.19.0"
