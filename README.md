@@ -1,4 +1,3 @@
-
 # Vue Theme
 
 This theme was created for the vscode editor. The name Vue Theme, because it was inspired by vue.js.
@@ -38,4 +37,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * [**Roberto Achar**](https://github.com/robertoachar) - For some ideas that helped me to develop this theme.
-
