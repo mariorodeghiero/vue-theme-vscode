@@ -4,10 +4,10 @@
 This theme was created for the vscode editor. The name Vue Theme, because it was inspired by vue.js.
 
 ### Welcome Page
-![Example running](img/example-1.gif)
+![Example running](images/example-1.gif)
 
 ### Code example `(html, css, MD, json, js)`
-![Example2 running](img/example-2.gif)
+![Example2 running](images/example-2.gif)
 
 ### Installing
 
