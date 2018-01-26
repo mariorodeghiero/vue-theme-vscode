@@ -80,8 +80,8 @@
       }
     },
     {
-      "name": "const let function",
-      "scope": "storage.type",
+      "name": "const, let, import",
+      "scope": "storage.type, keyword.control.import.js, keyword.control.from.js",
       "settings": {
         "foreground": "#FF2C6D"
       }
@@ -233,7 +233,7 @@
     },
     {
       "name": "html tag",
-      "scope": "entity.name.tag.structure.any.html, entity.name.tag.html, entity.name.tag.inline.any.html, entity.name.tag.block.any.html, entity.name.tag.other.html, meta.tag.sgml.doctype.html",
+      "scope": "entity.name.tag.script.html, entity.name.tag.structure.any.html, entity.name.tag.html, entity.name.tag.inline.any.html, entity.name.tag.block.any.html, entity.name.tag.other.html, meta.tag.sgml.doctype.html",
       "settings": {
         "foreground": "#ff2c6bf1"
       }
@@ -253,7 +253,7 @@
       }
     },
     {
-      "scope": "meta.tag.structure.any.html",
+      "scope": "meta.tag.structure.any.html, meta.tag.inline.any.html",
       "settings": {
         "foreground": "#c5c5c5f1"
       }
@@ -265,6 +265,13 @@
         "foreground": "#bdbdbd"
       }
     },
+    {
+      "scope": "meta.toc-list.id.html",
+      "settings": {
+        "foreground": "#64ffdbda"
+      }
+    },
+    // editor config
     {
       "name": "editor config",
       "scope": "keyword.other.definition.ini",
@@ -279,6 +286,7 @@
         "foreground": "#00abc1de"
       }
     },
+    // css
     {
       "name": "css",
       "scope": "entity.other.attribute-name.class.css, entity.other.attribute-name.id.css",
@@ -288,14 +296,14 @@
     },
     {
       "name": "css property",
-      "scope": "support.type.property-name.css",
+      "scope": "support.type.property-name.css, support.type.vendored.property-name.css",
       "settings": {
         "foreground": "#079ba8"
       }
     },
     {
       "name": "css value",
-      "scope": "support.constant.property-value.css, source.css",
+      "scope": "support.constant.property-value.css, source.css, support.constant.color.w3c-standard-color-name.css",
       "settings": {
         "foreground": "#90a4ae"
       }
@@ -335,7 +343,7 @@
     },
     {
       "name": "import",
-      "scope": "keyword.control.at-rule.import.css, meta.property-value.css, support.type.vendored.property-name.css",
+      "scope": "keyword.control.at-rule.import.css, meta.property-value.css",
       "settings": {
         "foreground": "#f06292"
       }
@@ -347,6 +355,7 @@
         "foreground": "#64ffdbda"
       }
     },
+    // markdown
     {
       "name": "markdown",
       "scope": "markup.heading.markdown",
@@ -364,6 +373,38 @@
       "scope": "beginning.punctuation.definition.list.markdown",
       "settings": {
         "foreground": "#64ffdbda"
+      }
+    },
+    // Vue configs
+    {
+      "scope": "entity.name.tag.template.html, keyword.control.export.js",
+      "settings": {
+        "foreground": "#ff2c6bf1"
+      }
+    },
+    {
+      "scope": "text.html.vue-html",
+      "settings": {
+        "foreground": "#bdbdbd"
+      }
+    },
+    {
+      "scope": "keyword.control.default.js, support.class.builtin.js, meta.function-call.js",
+      "settings": {
+        "foreground": "#64ffdbda"
+      }
+    },
+    // webpack
+    {
+      "scope": "support.type.object.module.js, string.regexp.js, support.variable.object.node.js",
+      "settings": {
+        "foreground": "#64ffdbda"
+      }
+    },
+    {
+      "scope": "support.variable.object.process.js, variable.other.constant.property.js",
+      "settings": {
+        "foreground": "#a1d7da"
       }
     }
   ]
