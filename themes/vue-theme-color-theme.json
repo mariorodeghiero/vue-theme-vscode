@@ -127,7 +127,7 @@
     },
     {
       "name": "template expression ${} and comparation",
-      "scope": "punctuation.accessor, keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment, keyword.operator.relational, keyword.operator, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end,",
+      "scope": "punctuation.accessor, keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment, keyword.operator.relational, keyword.operator, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end, constant.language.import-export-all.js",
       "settings": {
         "foreground": "#FFCC95"
       }
@@ -349,7 +349,6 @@
       }
     },
     {
-      "name": "string link",
       "scope": "string.quoted.double.css, constant.character.escape.codepoint.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.css, string.unquoted.attribute-value.css",
       "settings": {
         "foreground": "#64ffdbda"
@@ -389,7 +388,7 @@
       }
     },
     {
-      "scope": "keyword.control.default.js, support.class.builtin.js, meta.function-call.js",
+      "scope": "keyword.control.default.js, support.class.builtin.js, meta.function-call.js, keyword.control.as.js",
       "settings": {
         "foreground": "#64ffdbda"
       }
