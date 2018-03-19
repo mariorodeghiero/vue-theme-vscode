@@ -482,6 +482,92 @@
       "settings": {
         "foreground": "#a1d7da"
       }
+    },
+    // Php
+    {
+      "scope": "punctuation.definition.variable.php",
+      "settings": {
+        "foreground": "#ffcc95e7"
+      }
+    },
+    {
+      "scope":
+        "variable.other.php, variable.other.global.php, variable.other.global.safer.php",
+      "settings": {
+        "foreground": "#26e0d7f3"
+      }
+    },
+    {
+      "scope": "constant.language.php, constant.other.php",
+      "settings": {
+        "foreground": "#ff2c6bf1"
+      }
+    },
+    {
+      "scope": "keyword.control.return.php",
+      "settings": {
+        "foreground": "#09cbdd"
+      }
+    },
+    {
+      "scope":
+        "keyword.other.new.php, keyword.other.use.php, keyword.other.namespace.php, keyword.other.use-as.php, keyword.other.function.use.php, keyword.other.clone.php, keyword.control.yield.php, keyword.control.break.php, keyword.control.die.php",
+      "settings": {
+        "foreground": "#f48fb1"
+      }
+    },
+    {
+      "scope":
+        "support.class.builtin.php, entity.name.function.php, entity.other.alias.php, support.constant.std.php, constant.other.class.php",
+      "settings": {
+        "foreground": "#64f5ffda"
+      }
+    },
+    {
+      "scope":
+        "support.class.php, support.other.namespace.php, variable.other.class.php, variable.other.property.php, support.constant.core.php, support.constant.ext.php, support.class.exception.php",
+      "settings": {
+        "foreground": "#a0e3e7"
+      }
+    },
+    {
+      "scope": "storage.modifier.php",
+      "settings": {
+        "foreground": "#09cbdd"
+      }
+    },
+    {
+      "scope":
+        "keyword.control.case.php, keyword.control.switch.php, keyword.control.default.php, keyword.control.if.php, keyword.control.foreach.php, keyword.control.continue.php, keyword.other.class.php, keyword.control.elseif.php, keyword.control.else.php, keyword.control.while.php, keyword.control.for.php, keyword.control.do.php",
+      "settings": {
+        "foreground": "#a7deec"
+      }
+    },
+    {
+      "scope":
+        "punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php",
+      "settings": {
+        "foreground": "#a7deec"
+      }
+    },
+    {
+      "scope":
+        "keyword.control.exception.php, keyword.control.exception.catch.php, keyword.control.import.include.php",
+      "settings": {
+        "foreground": "#eb9485"
+      }
+    },
+    {
+      "scope": "string.regexp.single-quoted.php",
+      "settings": {
+        "foreground": "#eb9485"
+      }
+    },
+    {
+      "scope": "keyword.other.phpdoc.php, keyword.other.type.php",
+      "settings": {
+        "foreground": "#53a5b9"
+      }
     }
   ]
 }

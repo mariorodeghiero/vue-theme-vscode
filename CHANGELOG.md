@@ -1,27 +1,33 @@
 # Change Log
 
-## 1.0.0
+All notable changes to this project will be documented in this file.
 
-* Initial release
+## 1.0.6 - 2018-03-19
 
-## 1.0.1
+* Suport PHP
 
-* Edited syntax css
+## 1.0.5 - 2018-03-15
 
-## 1.0.2
-
-* Edited value numeric css
-
-## 1.0.3
-
-* Edited import javascrip
+* Add suport yaml
+* Add suport xml
+* Add suport yarn.lock
 
 ## 1.0.4
 
 * Add suport vue.js
 
-## 1.0.5
+## 1.0.3
 
-* Add suport yaml
-* Add suport xml
-* Add suport yarn.lock
+* Edited import javascrip
+
+## 1.0.2
+
+* Edited value numeric css
+
+## 1.0.1
+
+* Edited syntax css
+
+## 1.0.0
+
+* Initial release
