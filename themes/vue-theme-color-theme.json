@@ -120,7 +120,7 @@
     {
       "scope": "keyword.control.loop",
       "settings": {
-        "foreground": "#079ba8"
+        "foreground": "#09cbdd"
       }
     },
     {
@@ -132,7 +132,7 @@
     {
       "name": "template expression ${} and comparation",
       "scope":
-        "punctuation.accessor, keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment, keyword.operator.relational, keyword.operator, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end, constant.language.import-export-all.js",
+        "punctuation.accessor, keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment, keyword.operator.relational, keyword.operator, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end, constant.language.import-export-all.js, entity.other.attribute-name.js",
       "settings": {
         "foreground": "#FFCC95"
       }
@@ -175,7 +175,7 @@
     {
       "name": "keys",
       "scope":
-        "meta.embedded.line, variable.other.object, variable.other.readwrite, entity.name.type.class, entity.name.type,  entity.other.inherited-class, variable.parameter",
+        "meta.embedded.line, variable.other.object, variable.other.readwrite, entity.name.type.class, entity.name.type,  entity.other.inherited-class, variable.parameter, variable.object.property.js",
       "settings": {
         "foreground": "#a1d7da"
       }
