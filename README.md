@@ -1,6 +1,8 @@
 # Vue Theme
 
-This theme was created for the VS Code editor. The name Vue Theme, because it was inspired by vue.js.
+[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/mariorodeghiero.vue-theme.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
+[![GitHub](https://img.shields.io/github/release/mariorodeghiero/vue-theme-vscode.svg?style=flat-square)](https://github.com/mariorodeghiero/vue-theme-vscode/releases)
+[![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
 ### Welcome Page
 
@@ -12,11 +14,11 @@ This theme was created for the VS Code editor. The name Vue Theme, because it wa
 
 ### Installing
 
-1. Open **Extensions** sidebar panel in VS Code: `View → Extensions`
-2. Search for `Vue Theme` -  by **Mário Antônio do Amaral Rodeghiero**
-3. Click **Install** to install it.
-4. Click **Reload** to reload the your editor
-5. Code > Preferences > Color Theme > **Vue Theme**
+1.  Open **Extensions** sidebar panel in VS Code: `View → Extensions`
+2.  Search for `Vue Theme` - by **Mário Antônio do Amaral Rodeghiero**
+3.  Click **Install** to install it.
+4.  Click **Reload** to reload the your editor
+5.  Code > Preferences > Color Theme > **Vue Theme**
 
 ## Built With
 
