@@ -1,10 +1,10 @@
 {
   "name": "vue-theme",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "displayName": "Vue Theme",
   "description": "Theme inspired by vue.js",
   "publisher": "mariorodeghiero",
-  "icon": "images/logo.png",
+  "icon": "images/vue.png",
   "galleryBanner": {
     "color": "#002b36",
     "theme": "dark"
