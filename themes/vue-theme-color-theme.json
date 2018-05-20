@@ -356,80 +356,77 @@
     },
     // css
     {
-      "name": "css",
       "scope":
         "entity.other.attribute-name.class.css, entity.other.attribute-name.id.css",
       "settings": {
-        "foreground": "#ffcc95e7"
+        "foreground": "#34eeeed5"
       }
     },
     {
-      "name": "css property",
-      "scope":
-        "support.type.property-name.css, support.type.vendored.property-name.css",
+      "scope": "support.type.property-name.css",
       "settings": {
-        "foreground": "#079ba8"
-      }
-    },
-    {
-      "name": "css value",
-      "scope":
-        "support.constant.property-value.css, source.css, support.constant.color.w3c-standard-color-name.css",
-      "settings": {
-        "foreground": "#90a4ae"
-      }
-    },
-    {
-      "scope":
-        "punctuation.section.property-list.begin.bracket.curly.css, punctuation.section.function.begin.bracket.round.css, punctuation.section.function.end.bracket.round.css, punctuation.section.property-list.end.bracket.curly.css, punctuation.section.property-list.begin.bracket.curly.css, punctuation.separator.key-value.css, punctuation.terminator.rule.css",
-      "settings": {
-        "foreground": "#c2cbcc"
+        "foreground": "#94b6c4"
       }
     },
     {
       "scope": "entity.name.tag.css",
       "settings": {
-        "foreground": "#f06292"
+        "foreground": "#ff2c6be1"
       }
     },
     {
-      "name": "color",
-      "scope":
-        "meta.function.color.css, constant.other.color.rgb-value.hex.css, support.constant.property-value.css",
-      "settings": {
-        "foreground": "#09cce2ea"
-      }
-    },
-    {
-      "name": "value numeric",
-      "scope":
-        "constant.numeric.css, support.function.url.css, support.function.misc.css, punctuation.separator.list.comma.css",
+      "scope": "constant.numeric.css",
       "settings": {
         "foreground": "#ffcc95e7"
       }
     },
     {
-      "name": "font css",
       "scope":
-        "support.constant.font-name.css, keyword.other.unit.percentage.css, keyword.other.unit.px.css, keyword.other.unit.rem.css",
+        "keyword.other.unit, keyword.control.at-rule.include.scss, keyword.control.at-rule.import.scss, keyword.control.at-rule.import.css, entity.name.tag.wildcard.css",
       "settings": {
-        "foreground": "#f06292"
-      }
-    },
-    {
-      "name": "import",
-      "scope": "keyword.control.at-rule.import.css, meta.property-value.css",
-      "settings": {
-        "foreground": "#f06292"
+        "foreground": "#ff2c6bf1"
       }
     },
     {
       "scope":
-        "string.quoted.double.css, constant.character.escape.codepoint.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.css, string.unquoted.attribute-value.css",
+        "punctuation.section.property-list.begin.bracket.curly.scss, punctuation.section.property-list.end.bracket.curly.scss, punctuation.section.property-list.begin.bracket.curly.css, punctuation.section.property-list.end.bracket.curly.css, punctuation.separator.list.comma.css, punctuation.section.function.begin.bracket.round.css, punctuation.section.function.end.bracket.round.css, punctuation.definition.entity.begin.bracket.square.css, punctuation.definition.entity.end.bracket.square.css",
       "settings": {
-        "foreground": "#64ffdbda"
+        "foreground": "#b9b8b8"
       }
     },
+    {
+      "scope":
+        "punctuation.definition.constant.css, punctuation.terminator.rule.css, punctuation.separator.key-value.css",
+      "settings": {
+        "foreground": "#a7a2a2"
+      }
+    },
+    {
+      "scope": "constant.other.color.rgb-value.hex.css",
+      "settings": {
+        "foreground": "#cccccc"
+      }
+    },
+    {
+      "scope": "support.type.vendored.property-name.css",
+      "settings": {
+        "foreground": "#a7a2a2"
+      }
+    },
+    {
+      "scope":
+        "keyword.control.at-rule.keyframes.css, keyword.control.at-rule.media.css, support.type.property-name.media.css, support.constant.media.css",
+      "settings": {
+        "foreground": "#d1829a"
+      }
+    },
+    {
+      "scope": "entity.other.keyframe-offset.percentage.css",
+      "settings": {
+        "foreground": "#34eeeed7"
+      }
+    },
+
     // markdown
     {
       "name": "markdown",
