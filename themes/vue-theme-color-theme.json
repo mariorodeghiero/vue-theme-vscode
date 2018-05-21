@@ -359,32 +359,33 @@
       "scope":
         "entity.other.attribute-name.class.css, entity.other.attribute-name.id.css",
       "settings": {
-        "foreground": "#34eeeed5"
+        "foreground": "#ffcc95de"
+        // "foreground": "#34eeeed5"
       }
     },
     {
       "scope": "support.type.property-name.css",
       "settings": {
-        "foreground": "#94b6c4"
+        "foreground": "#a0b9c4c0"
       }
     },
     {
       "scope": "entity.name.tag.css",
       "settings": {
-        "foreground": "#ff2c6be1"
+        "foreground": "#ff2c6be0"
       }
     },
     {
       "scope": "constant.numeric.css",
       "settings": {
-        "foreground": "#ffcc95e7"
+        "foreground": "#ffcc95c4"
       }
     },
     {
       "scope":
         "keyword.other.unit, keyword.control.at-rule.include.scss, keyword.control.at-rule.import.scss, keyword.control.at-rule.import.css, entity.name.tag.wildcard.css",
       "settings": {
-        "foreground": "#ff2c6bf1"
+        "foreground": "#ff2c6bc2"
       }
     },
     {
@@ -404,7 +405,7 @@
     {
       "scope": "constant.other.color.rgb-value.hex.css",
       "settings": {
-        "foreground": "#cccccc"
+        "foreground": "#dd8aa3"
       }
     },
     {
@@ -415,9 +416,29 @@
     },
     {
       "scope":
-        "keyword.control.at-rule.keyframes.css, keyword.control.at-rule.media.css, support.type.property-name.media.css, support.constant.media.css",
+        "keyword.control.at-rule.keyframes.css, keyword.control.at-rule.media.css, support.type.property-name.media.css, support.constant.media.css, support.constant.font-name.css",
       "settings": {
-        "foreground": "#d1829a"
+        "foreground": "#dd8aa3"
+      }
+    },
+    {
+      "scope": "variable.parameter.keyframe-list.css, meta.property-value.css",
+      "settings": {
+        "foreground": "#7cc0d1"
+      }
+    },
+    {
+      "scope": "support.constant.property-value.css",
+      "settings": {
+        "foreground": "#7cc0d1"
+        // "foreground": "#34eeeeb9"
+      }
+    },
+    {
+      "scope":
+        "entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css",
+      "settings": {
+        "foreground": "#a0b9c4fa"
       }
     },
     {
