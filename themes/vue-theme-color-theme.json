@@ -397,9 +397,15 @@
     },
     {
       "scope":
-        "punctuation.definition.constant.css, punctuation.terminator.rule.css, punctuation.separator.key-value.css",
+        "punctuation.terminator.rule.css, punctuation.separator.key-value.css",
       "settings": {
         "foreground": "#a7a2a2"
+      }
+    },
+    {
+      "scope": "punctuation.definition.constant.css",
+      "settings": {
+        "foreground": "#a0b9c4c0"
       }
     },
     {
