@@ -1,6 +1,6 @@
 {
   "name": "vue-theme",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "displayName": "Vue Theme",
   "description": "Theme inspired by vue.js",
   "publisher": "mariorodeghiero",
@@ -9,8 +9,7 @@
     "color": "#002b36",
     "theme": "dark"
   },
-  "homepage":
-    "https://github.com/mariorodeghiero/vue-theme-vscode/blob/master/README.md",
+  "homepage": "https://github.com/mariorodeghiero/vue-theme-vscode/blob/master/README.md",
   "repository": {
     "type": "git",
     "url": "https://github.com/mariorodeghiero/vue-theme-vscode.git"
@@ -18,8 +17,13 @@
   "bugs": {
     "url": "https://github.com/mariorodeghiero/vue-theme-vscode/issues"
   },
-  "categories": ["Themes"],
-  "keywords": ["VSCode", "Themes"],
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "VSCode",
+    "Themes"
+  ],
   "engines": {
     "vscode": "^1.19.0"
   },
