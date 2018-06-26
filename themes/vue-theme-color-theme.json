@@ -364,7 +364,8 @@
       }
     },
     {
-      "scope": "support.type.property-name.css",
+      "scope":
+        "support.type.property-name.css, support.constant.color.w3c-extended-color-name.css, support.constant.color.w3c-standard-color-name.css",
       "settings": {
         "foreground": "#a0b9c4c0"
       }
@@ -383,7 +384,7 @@
     },
     {
       "scope":
-        "keyword.other.unit, keyword.control.at-rule.include.scss, keyword.control.at-rule.import.scss, keyword.control.at-rule.import.css, entity.name.tag.wildcard.css",
+        "keyword.other.unit, keyword.control.at-rule.include.scss, keyword.control.at-rule.import.scss, entity.name.tag.wildcard.css",
       "settings": {
         "foreground": "#ff2c6bc2"
       }
@@ -409,7 +410,8 @@
       }
     },
     {
-      "scope": "constant.other.color.rgb-value.hex.css",
+      "scope":
+        "constant.other.color.rgb-value.hex.css, entity.name.tag.reference.scss",
       "settings": {
         "foreground": "#dd8aa3"
       }
@@ -422,7 +424,7 @@
     },
     {
       "scope":
-        "keyword.control.at-rule.keyframes.css, keyword.control.at-rule.media.css, support.type.property-name.media.css, support.constant.media.css, support.constant.font-name.css",
+        "keyword.control.at-rule.keyframes.css, keyword.control.at-rule.media.css, support.type.property-name.media.css, support.constant.media.css, support.constant.font-name.css, keyword.other.important.scss, keyword.control.at-rule.media.scss, keyword.control.operator.css.scss, entity.other.keyframe-offset.css, entity.other.attribute-name.css, keyword.control.at-rule.import.css",
       "settings": {
         "foreground": "#dd8aa3"
       }
@@ -451,6 +453,12 @@
       "scope": "entity.other.keyframe-offset.percentage.css",
       "settings": {
         "foreground": "#34eeeed7"
+      }
+    },
+    {
+      "scope": "variable.scss, support.function.url.css",
+      "settings": {
+        "foreground": "#88f1ffc2"
       }
     },
 
