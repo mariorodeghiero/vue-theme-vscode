@@ -1,4 +1,4 @@
-![Example1 running](images/vue-theme-page.png)
+![Example3 running](images/vue-theme-page.png)
 
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/mariorodeghiero.vue-theme.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
 [![Version](https://vsmarketplacebadge.apphb.com/version-short/mariorodeghiero.vue-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
