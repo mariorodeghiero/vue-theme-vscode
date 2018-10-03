@@ -86,7 +86,7 @@
     },
     {
       "name": "const, let, import",
-      "scope": "storage.type, keyword.control.import.js, keyword.control.from.js",
+      "scope": "storage.type, keyword.control.import.js, keyword.control.from.js, support.class.error.js",
       "settings": {
         "foreground": "#FF2C6D"
       }
@@ -106,7 +106,7 @@
       }
     },
     {
-      "scope": "meta.brace.square.js, meta.brace.round.js, punctuation.terminator.statement.js",
+      "scope": "meta.brace.round.js, punctuation.terminator.statement.js",
       "settings": {
         "foreground": "#c5c5c5f1"
       }
@@ -132,7 +132,7 @@
     },
     {
       "name": "template expression ${} and comparation",
-      "scope": "punctuation.accessor, keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment, keyword.operator.relational, keyword.operator, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end, constant.language.import-export-all.js, entity.other.attribute-name.js",
+      "scope": "punctuation.accessor, meta.brace.square.js, keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment, keyword.operator.relational, keyword.operator, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end, constant.language.import-export-all.js, entity.other.attribute-name.js",
       "settings": {
         "foreground": "#FFCC95"
       }
@@ -488,7 +488,7 @@
       }
     },
     {
-      "scope": "support.variable.object.process.js, variable.other.constant.property.js",
+      "scope": "support.variable.object.process.js, variable.other.constant.property.js, variable.other.constant.js",
       "settings": {
         "foreground": "#a1d7da"
       }
