@@ -34,7 +34,7 @@
     "list.focusForeground": "#d4d4d4",
     "list.activeSelectionBackground": "#09698180",
     "list.activeSelectionForeground": "#d4d4d4",
-    "list.inactiveSelectionBackground": "#002b36",
+    "list.inactiveSelectionBackground": "#09698180",
     "list.inactiveSelectionForeground": "#aeb1b0",
     "list.highlightForeground": "#aeb1b0",
     "list.inactiveFocusBackground": "#002b36",
