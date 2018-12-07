@@ -1,17 +1,25 @@
 ![Example3 running](images/vue-theme-page.png)
 
+<div align="center">
+
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/mariorodeghiero.vue-theme.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
 [![Version](https://vsmarketplacebadge.apphb.com/version-short/mariorodeghiero.vue-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
 [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/mariorodeghiero.vue-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-### Welcome Page
+</div>
 
-![Example running](images/example-1.gif)
+<div align="center">
 
-### Code example `(html, css, MD, json, js)`
+### Code example `(JS, SCSS)`
 
-![Example2 running](images/example-2.gif)
+![Example running](images/example-1.png)
+
+![Example2 running](images/example-2.png)
+
+![Example3 running](images/example-3.png)
+
+</div>
 
 ### Installing
 
@@ -37,10 +45,9 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Contributors
 
-[![Mário Rodeghiero](https://avatars0.githubusercontent.com/u/24671133?s=60&v=4)](https://github.com/mariorodeghiero) | [![Roberto Achar](https://avatars2.githubusercontent.com/u/7755073?s=60&v=4)](https://github.com/robertoachar)  | [![Saamiyah](https://avatars0.githubusercontent.com/u/7201256?s=60&v=4)](https://github.com/Saamiyah)
---- | ---
-[Mário Rodeghiero 👨‍💻](https://github.com/nesl247) | [Roberto Achar 📖](https://github.com/robertoachar) | [Saamiyah 📖](https://github.com/Saamiyah)
-
+| [![Mário Rodeghiero](https://avatars0.githubusercontent.com/u/24671133?s=60&v=4)](https://github.com/mariorodeghiero) | [![Roberto Achar](https://avatars2.githubusercontent.com/u/7755073?s=60&v=4)](https://github.com/robertoachar) | [![Saamiyah](https://avatars0.githubusercontent.com/u/7201256?s=60&v=4)](https://github.com/Saamiyah) |
+| --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| [Mário Rodeghiero 👨‍💻](https://github.com/nesl247)                                                                     | [Roberto Achar 📖](https://github.com/robertoachar)                                                            | [Saamiyah 📖](https://github.com/Saamiyah)                                                            |
 
 ## License
 
