@@ -7,10 +7,6 @@
 [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/mariorodeghiero.vue-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-</div>
-
-<div align="center">
-
 ### Code example `(JS, SCSS)`
 
 ![Example running](images/example.png)
@@ -45,16 +41,9 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Contributors
 
-<<<<<<< HEAD
-| [![Mário Rodeghiero](https://avatars0.githubusercontent.com/u/24671133?s=60&v=4)](https://github.com/mariorodeghiero) | [![Roberto Achar](https://avatars2.githubusercontent.com/u/7755073?s=60&v=4)](https://github.com/robertoachar) | [![Saamiyah](https://avatars0.githubusercontent.com/u/7201256?s=60&v=4)](https://github.com/Saamiyah) |
-| --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| [Mário Rodeghiero 👨‍💻](https://github.com/nesl247) | [Roberto Achar 📖](https://github.com/robertoachar) | [Saamiyah 📖](https://github.com/Saamiyah) |
-=======
-[![Mário Rodeghiero 👨‍💻](https://avatars0.githubusercontent.com/u/24671133?s=60&v=4)](https://github.com/mariorodeghiero) | [![Roberto Achar 📖](https://avatars2.githubusercontent.com/u/7755073?s=60&v=4)](https://github.com/robertoachar) | [![Saamiyah 📖](https://avatars0.githubusercontent.com/u/7201256?s=60&v=4)](https://github.com/Saamiyah)
---- | --- | ---
-[Mário Rodeghiero 👨‍💻](https://github.com/mariorodeghiero) | [Roberto Achar 📖](https://github.com/robertoachar) | [Saamiyah 📖](https://github.com/Saamiyah)
-
-> > > > > > > bce6bb33bda6e9b144a70b342c334c68c3446881
+| [![Mário Rodeghiero 👨‍💻](https://avatars0.githubusercontent.com/u/24671133?s=60&v=4)](https://github.com/mariorodeghiero) | [![Roberto Achar 📖](https://avatars2.githubusercontent.com/u/7755073?s=60&v=4)](https://github.com/robertoachar) | [![Saamiyah 📖](https://avatars0.githubusercontent.com/u/7201256?s=60&v=4)](https://github.com/Saamiyah) |
+| ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| [Mário Rodeghiero 👨‍💻](https://github.com/mariorodeghiero)                                                                | [Roberto Achar 📖](https://github.com/robertoachar)                                                               | [Saamiyah 📖](https://github.com/Saamiyah)                                                               |
 
 ## License
 
