@@ -13,7 +13,7 @@
 
 ### Code example `(JS, SCSS)`
 
-![Example running](images/example-1.png)
+![Example running](images/example.png)
 
 ![Example2 running](images/example-2.png)
 
@@ -48,13 +48,13 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 <<<<<<< HEAD
 | [![Mário Rodeghiero](https://avatars0.githubusercontent.com/u/24671133?s=60&v=4)](https://github.com/mariorodeghiero) | [![Roberto Achar](https://avatars2.githubusercontent.com/u/7755073?s=60&v=4)](https://github.com/robertoachar) | [![Saamiyah](https://avatars0.githubusercontent.com/u/7201256?s=60&v=4)](https://github.com/Saamiyah) |
 | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| [Mário Rodeghiero 👨‍💻](https://github.com/nesl247)                                                                     | [Roberto Achar 📖](https://github.com/robertoachar)                                                            | [Saamiyah 📖](https://github.com/Saamiyah)                                                            |
+| [Mário Rodeghiero 👨‍💻](https://github.com/nesl247) | [Roberto Achar 📖](https://github.com/robertoachar) | [Saamiyah 📖](https://github.com/Saamiyah) |
 =======
 [![Mário Rodeghiero 👨‍💻](https://avatars0.githubusercontent.com/u/24671133?s=60&v=4)](https://github.com/mariorodeghiero) | [![Roberto Achar 📖](https://avatars2.githubusercontent.com/u/7755073?s=60&v=4)](https://github.com/robertoachar) | [![Saamiyah 📖](https://avatars0.githubusercontent.com/u/7201256?s=60&v=4)](https://github.com/Saamiyah)
 --- | --- | ---
 [Mário Rodeghiero 👨‍💻](https://github.com/mariorodeghiero) | [Roberto Achar 📖](https://github.com/robertoachar) | [Saamiyah 📖](https://github.com/Saamiyah)
 
->>>>>>> bce6bb33bda6e9b144a70b342c334c68c3446881
+> > > > > > > bce6bb33bda6e9b144a70b342c334c68c3446881
 
 ## License
 
