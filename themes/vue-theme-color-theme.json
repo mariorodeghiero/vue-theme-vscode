@@ -444,7 +444,7 @@
     // markdown
     {
       "name": "markdown",
-      "scope": "markup.heading.markdown",
+      "scope": "markup.heading.markdown, punctuation.definition.metadata.markdown, punctuation.definition.list.begin.markdown, meta.separator.markdown, punctuation.definition.quote.begin.markdown",
       "settings": {
         "foreground": "#ffcc95e7"
       }
@@ -452,7 +452,7 @@
     {
       "scope": "meta.paragraph.markdown",
       "settings": {
-        "foreground": "#00abc1de"
+        "foreground": "#93A8AC"
       }
     },
     {
