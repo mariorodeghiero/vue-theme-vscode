@@ -1,11 +1,15 @@
-![Example3 running](images/vue-theme-page.png)
-
 <div align="center">
 
 [![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs-short/mariorodeghiero.vue-theme.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
 [![Version](https://vsmarketplacebadge.apphb.com/version-short/mariorodeghiero.vue-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
 [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/mariorodeghiero.vue-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+
+![Example1 running](images/vue-theme-page.png)
+
+</div>
+
+<div align="center">
 
 ### Code example `(JS, SCSS)`
 

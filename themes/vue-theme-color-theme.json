@@ -77,7 +77,7 @@
   },
   "tokenColors": [
     {
-      "name": "comentarios",
+      "name": "comments",
       "scope": "comment",
       "settings": {
         "foreground": "#8a8787",
@@ -159,7 +159,7 @@
     },
     {
       "name": "variable object",
-      "scope": "variable.other.object.property, variable.other.property, meta.template.expression, support.variable.property, variable.language.super, support.class.component.js, entity.name.tag.js",
+      "scope": "variable.other.object.property, variable.other.property, meta.template.expression, support.variable.property, variable.language.super, support.class.component.js, entity.name.tag.js, entity.name.tag.style.html",
       "settings": {
         "foreground": "#ff2c6bf1"
       }
@@ -172,7 +172,7 @@
     },
     {
       "name": "keys",
-      "scope": "meta.embedded.line, variable.other.object, variable.other.readwrite, entity.name.type.class, entity.name.type,  entity.other.inherited-class, variable.parameter, variable.object.property.js",
+      "scope": "meta.embedded.line, variable.other.object, variable.other.readwrite, entity.name.type.class, entity.name.type,  entity.other.inherited-class, variable.parameter, variable.object.property.js, support.function, storage.modifier.async.js",
       "settings": {
         "foreground": "#a1d7da"
       }
@@ -193,7 +193,7 @@
     },
     {
       "name": "function and if/else",
-      "scope": " support.variable.dom, storage.modifier, support.function",
+      "scope": " support.variable.dom, storage.modifier",
       "settings": {
         "foreground": "#079ba8"
       }

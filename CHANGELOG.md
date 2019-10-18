@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.1.2 - 2020-05-03
+
+Vue improvements
+
+ - support.function
+ - style tag
+ - storage.modifier.async
+
 ## 1.1.1 - 2018-10-03
 
 - fixed const variable
