@@ -5,13 +5,9 @@
 [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/mariorodeghiero.vue-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-![Example1 running](images/vue-theme-page.png)
-
 </div>
 
 <div align="center">
-
-### Code example `(JS, SCSS)`
 
 ![Example running](images/example.png)
 
