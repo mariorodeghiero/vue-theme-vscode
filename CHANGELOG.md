@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.1.2 - 2020-05-08
+
+Tsx improvements
+
+ - support tsx
+
 ## 1.1.2 - 2020-05-03
 
 Vue improvements
