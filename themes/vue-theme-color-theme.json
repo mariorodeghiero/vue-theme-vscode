@@ -86,7 +86,7 @@
     },
     {
       "name": "const, let, import",
-      "scope": "storage.type, keyword.control.import.js, keyword.control.from.js, support.class.error.js",
+      "scope": "storage.type, keyword.control.import.js, keyword.control.import.tsx, keyword.control.from.js, keyword.control.from.tsx, support.class.error.js, support.class.error.tsx",
       "settings": {
         "foreground": "#FF2C6D"
       }
@@ -106,14 +106,14 @@
       }
     },
     {
-      "scope": "meta.brace.round.js, punctuation.terminator.statement.js",
+      "scope": "meta.brace.round.js, meta.brace.round.tsx, punctuation.terminator.statement.js, punctuation.terminator.statement.tsx",
       "settings": {
         "foreground": "#c5c5c5f1"
       }
     },
     {
       "name": "{} , ()",
-      "scope": "punctuation.separator.comma.js, punctuation.definition.block.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js",
+      "scope": "punctuation.separator.comma.js, punctuation.separator.comma.tsx, punctuation.definition.block.js, punctuation.definition.block.tsx, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.begin.tsx, punctuation.definition.parameters.end.js, punctuation.definition.parameters.end.tsx",
       "settings": {
         "foreground": "#c5c5c5f1"
       }
@@ -132,7 +132,7 @@
     },
     {
       "name": "template expression ${} and comparation",
-      "scope": "punctuation.accessor, meta.brace.square.js, keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment, keyword.operator.relational, keyword.operator, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end, constant.language.import-export-all.js, entity.other.attribute-name.js",
+      "scope": "punctuation.accessor, meta.brace.square.js, meta.brace.square.tsx, keyword.operator.arithmetic, keyword.operator.comparison, keyword.operator.assignment, keyword.operator.relational, keyword.operator, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end, constant.language.import-export-all.js, constant.language.import-export-all.tsx,  entity.other.attribute-name.js, entity.other.attribute-name.tsx",
       "settings": {
         "foreground": "#FFCC95"
       }
@@ -159,20 +159,20 @@
     },
     {
       "name": "variable object",
-      "scope": "variable.other.object.property, variable.other.property, meta.template.expression, support.variable.property, variable.language.super, support.class.component.js, entity.name.tag.js, entity.name.tag.style.html",
+      "scope": "variable.other.object.property, variable.other.property, meta.template.expression, support.variable.property, variable.language.super, support.class.component.js, entity.name.tag.js, entity.name.tag.tsx, entity.name.tag.style.html",
       "settings": {
         "foreground": "#ff2c6bf1"
       }
     },
     {
-      "scope": "meta.jsx.children.js",
+      "scope": "meta.jsx.children.js, meta.jsx.children.tsx",
       "settings": {
         "foreground": "#c0babaec"
       }
     },
     {
       "name": "keys",
-      "scope": "meta.embedded.line, variable.other.object, variable.other.readwrite, entity.name.type.class, entity.name.type,  entity.other.inherited-class, variable.parameter, variable.object.property.js, support.function, storage.modifier.async.js",
+      "scope": "meta.embedded.line, variable.other.object, variable.other.readwrite, entity.name.type.class, entity.name.type,  entity.other.inherited-class, variable.parameter, variable.object.property.js, variable.object.property.tsx, support.function, storage.modifier.async.js, storage.modifier.async.tsx",
       "settings": {
         "foreground": "#a1d7da"
       }
@@ -219,7 +219,7 @@
     },
     {
       "name": "if else, try catch",
-      "scope": "keyword.control.conditional, keyword.control.trycatch.js",
+      "scope": "keyword.control.conditional, keyword.control.trycatch.js, keyword.control.trycatch.tsx",
       "settings": {
         "foreground": "#09cbdd"
       }
@@ -258,7 +258,7 @@
     },
     {
       "name": "gt and lt",
-      "scope": "punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.js, punctuation.definition.tag.end.js",
+      "scope": "punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.js, punctuation.definition.tag.begin.tsx, punctuation.definition.tag.end.js, punctuation.definition.tag.end.tsx",
       "settings": {
         "foreground": "#c5c5c5f1"
       }
@@ -463,7 +463,7 @@
     },
     // Vue configs
     {
-      "scope": "entity.name.tag.template.html, keyword.control.export.js",
+      "scope": "entity.name.tag.template.html, keyword.control.export.js, keyword.control.export.tsx",
       "settings": {
         "foreground": "#ff2c6bf1"
       }
@@ -475,20 +475,20 @@
       }
     },
     {
-      "scope": "keyword.control.default.js, support.class.builtin.js, meta.function-call.js, keyword.control.as.js",
+      "scope": "keyword.control.default.js, keyword.control.default.tsx, support.class.builtin.js, support.class.builtin.tsx, meta.function-call.js, meta.function-call.tsx, keyword.control.as.js, keyword.control.as.tsx",
       "settings": {
         "foreground": "#64ffdbda"
       }
     },
     // webpack
     {
-      "scope": "support.type.object.module.js, string.regexp.js, support.variable.object.node.js",
+      "scope": "support.type.object.module.js, support.type.object.module.tsx, string.regexp.js, string.regexp.tsx, support.variable.object.node.js, support.variable.object.node.tsx",
       "settings": {
         "foreground": "#64ffdbda"
       }
     },
     {
-      "scope": "support.variable.object.process.js, variable.other.constant.property.js, variable.other.constant.js",
+      "scope": "support.variable.object.process.js, support.variable.object.process.tsx, variable.other.constant.property.js, variable.other.constant.property.tsx, variable.other.constant.js, variable.other.constant.tsx",
       "settings": {
         "foreground": "#a1d7da"
       }
