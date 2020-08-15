@@ -41,9 +41,10 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Contributors
 
-| [![Mário Rodeghiero 👨‍💻](https://avatars0.githubusercontent.com/u/24671133?s=60&v=4)](https://github.com/mariorodeghiero) | [![Roberto Achar 📖](https://avatars2.githubusercontent.com/u/7755073?s=60&v=4)](https://github.com/robertoachar) | [![Saamiyah 📖](https://avatars0.githubusercontent.com/u/7201256?s=60&v=4)](https://github.com/Saamiyah) |
-| ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| [Mário Rodeghiero 👨‍💻](https://github.com/mariorodeghiero)                                                                | [Roberto Achar 📖](https://github.com/robertoachar)                                                               | [Saamiyah 📖](https://github.com/Saamiyah)                                                               |
+| [![Mário Rodeghiero 👨‍💻](https://avatars0.githubusercontent.com/u/24671133?s=60&v=4)](https://github.com/mariorodeghiero) | [![Roberto Achar 💻](https://avatars2.githubusercontent.com/u/7755073?s=60&v=4)](https://github.com/robertoachar) | [![Saamiyah 💻](https://avatars0.githubusercontent.com/u/7201256?s=60&v=4)](https://github.com/Saamiyah) | [![rafael-santos 💻](https://avatars1.githubusercontent.com/u/2393428?s=64&v=4)](https://github.com/rafael-santos) |
+| ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |-------------------------------------------------------------------------------------------------------- |
+| [Mário Rodeghiero 👨‍💻](https://github.com/mariorodeghiero)                                                                | [Roberto Achar 💻](https://github.com/robertoachar)                                                               | [Saamiyah 💻](https://github.com/Saamiyah)                                                               |[rafael-santos 💻](https://github.com/rafael-santos)                                                               |
+
 
 ## License
 
