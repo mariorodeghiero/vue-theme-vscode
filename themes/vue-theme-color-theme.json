@@ -313,7 +313,7 @@
         "foreground": "#8bdbe9e3"
       }
     },
-    // yanl
+    // yaml
     {
       "scope": "entity.name.tag.yaml",
       "settings": {
@@ -322,6 +322,24 @@
     },
     {
       "scope": "source.yaml",
+      "settings": {
+        "foreground": "#00ffffcc"
+      }
+    },
+    {
+      "scope": "string.unquoted.plain.out.yaml",
+      "settings": {
+        "foreground": "#00ABC1DA"
+      }
+    },
+    {
+      "scope": "meta.flow-sequence.yaml",
+      "settings": {
+        "foreground": "#ee475e"
+      }
+    },
+    {
+      "scope": "string.unquoted.plain.in.yaml",
       "settings": {
         "foreground": "#00ffffcc"
       }
@@ -346,7 +364,6 @@
       "scope": "entity.other.attribute-name.class.css, entity.other.attribute-name.id.css",
       "settings": {
         "foreground": "#ffcc95de"
-        // "foreground": "#34eeeed5"
       }
     },
     {
@@ -419,7 +436,6 @@
       "scope": "support.constant.property-value.css",
       "settings": {
         "foreground": "#7cc0d1"
-        // "foreground": "#34eeeeb9"
       }
     },
     {
