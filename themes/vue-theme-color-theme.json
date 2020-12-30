@@ -347,14 +347,14 @@
     // editor config
     {
       "name": "editor config",
-      "scope": "keyword.other.definition.ini",
+      "scope": "keyword.other.definition.ini, meta.rule.indent_style.editorconfig, keyword.other.definition.root.editorconfig, meta.section.editorconfig",
       "settings": {
         "foreground": "#ffcc95e7"
       }
     },
     {
       "name": "editor config",
-      "scope": "source.ini",
+      "scope": "source.ini constant.language.tab.editorconfig, punctuation.separator.key-value.editorconfig",
       "settings": {
         "foreground": "#00abc1de"
       }
