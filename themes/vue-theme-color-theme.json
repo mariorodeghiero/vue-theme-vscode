@@ -361,7 +361,7 @@
     },
     // css
     {
-      "scope": "entity.other.attribute-name.class.css, entity.other.attribute-name.id.css",
+      "scope": "entity.other.attribute-name.class.css, entity.other.attribute-name.id.css, variable.argument.css",
       "settings": {
         "foreground": "#ffcc95de"
       }
