@@ -44,6 +44,10 @@ Red          | `#ee475e`
 Yellow       | `#ffcc95`
 
 
+## Sponsors
+
+Support this project by becoming a sponsor and your image with a link to your website. [[Become a sponsor](https://opencollective.com/vue-theme#sponsor)]
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
@@ -58,10 +62,6 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |-------------------------------------------------------------------------------------------------------- |
 | [Mário Rodeghiero 💻](https://github.com/mariorodeghiero)                                                                | [Roberto Achar 💻](https://github.com/robertoachar)                                                               | [Saamiyah 💻](https://github.com/Saamiyah)                                                               |[rafael-santos 💻](https://github.com/rafael-santos)                                                               |
 
-
-<!-- ## Sponsors
-
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/vue-theme#sponsor)] -->
 
 ## License
 
