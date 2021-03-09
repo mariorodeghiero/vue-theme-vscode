@@ -5,6 +5,7 @@
 [![Rating](https://vsmarketplacebadge.apphb.com/rating-short/mariorodeghiero.vue-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
+
 </div>
 
 <div align="center">
@@ -12,6 +13,7 @@
 ![Example running](images/example.png)
 
 </div>
+
 
 ## Built With
 
@@ -44,24 +46,23 @@ Red          | `#ee475e`
 Yellow       | `#ffcc95`
 
 
-## Sponsors
+## Contributors
 
-Support this project by becoming a sponsor and your image with a link to your website. [[Become a sponsor](https://opencollective.com/vue-theme#sponsor)]
+Many thanks to all the people who contribute to this project:
+<a href="https://opencollective.com/vue-theme"><img src="https://opencollective.com/vue-theme/contributors.svg?width=890" /></a>
 
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
+## Sponsors
+
+Support this project by becoming a sponsor and your image with a link to your website.
+<a href="https://opencollective.com/vue-theme#sponsor"><img src="https://opencollective.com/vue-theme/backers.svg?width=890"/></a>
+
 ## Author
 
 - [Mário Antônio do Amaral Rodeghiero](https://github.com/mariorodeghiero)
-
-## Contributors
-
-| [![Mário Rodeghiero 💻](https://avatars0.githubusercontent.com/u/24671133?s=60&v=4)](https://github.com/mariorodeghiero) | [![Roberto Achar 💻](https://avatars2.githubusercontent.com/u/7755073?s=60&v=4)](https://github.com/robertoachar) | [![Saamiyah 💻](https://avatars0.githubusercontent.com/u/7201256?s=60&v=4)](https://github.com/Saamiyah) | [![rafael-santos 💻](https://avatars1.githubusercontent.com/u/2393428?s=64&v=4)](https://github.com/rafael-santos) |
-| ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |-------------------------------------------------------------------------------------------------------- |
-| [Mário Rodeghiero 💻](https://github.com/mariorodeghiero)                                                                | [Roberto Achar 💻](https://github.com/robertoachar)                                                               | [Saamiyah 💻](https://github.com/Saamiyah)                                                               |[rafael-santos 💻](https://github.com/rafael-santos)                                                               |
-
 
 ## License
 
