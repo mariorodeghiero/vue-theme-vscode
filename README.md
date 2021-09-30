@@ -55,11 +55,6 @@ Many thanks to all the people who contribute to this project:
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Sponsors
-
-Support this project by becoming a sponsor and your image with a link to your website.
-<a href="https://opencollective.com/vue-theme#sponsor"><img src="https://opencollective.com/vue-theme/backers.svg?width=890"/></a>
-
 ## Author
 
 - [Mário Antônio do Amaral Rodeghiero](https://github.com/mariorodeghiero)
