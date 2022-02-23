@@ -282,7 +282,11 @@
         "foreground": "#64ffdbda"
       }
     },
-    // xml
+    /**
+    * ----------------------------------
+    * XML
+    * ----------------------------------
+    **/
     {
       "scope": "entity.name.tag.xml, entity.name.tag.localname.xml, entity.name.tag.namespace.xml",
       "settings": {
@@ -313,7 +317,11 @@
         "foreground": "#8bdbe9e3"
       }
     },
-    // yaml
+    /**
+    * ----------------------------------
+    * yaml
+    * ----------------------------------
+    **/
     {
       "scope": "entity.name.tag.yaml",
       "settings": {
@@ -333,7 +341,15 @@
       }
     },
     {
-      "scope": "meta.flow-sequence.yaml",
+      "name": "aliases",
+      "scope": "variable.other.alias.yaml",
+      "settings": {
+        "foreground": "#00ABC1DA"
+      }
+    },
+    {
+      "name": "Separators",
+      "scope": "meta.flow-sequence.yaml, punctuation.definition.block.scalar.folded.yaml, punctuation.definition.block.scalar.literal.yaml, punctuation.definition.block.sequence.item.yaml, punctuation.separator.key-value.mapping.yaml, support.other.chomping-indicator.yaml",
       "settings": {
         "foreground": "#ee475e"
       }
@@ -344,7 +360,11 @@
         "foreground": "#00ffffcc"
       }
     },
-    // editor config
+    /**
+    * ----------------------------------
+    * Editor config
+    * ----------------------------------
+    **/
     {
       "name": "editor config",
       "scope": "keyword.other.definition.ini, meta.rule.indent_style.editorconfig, keyword.other.definition.root.editorconfig, meta.section.editorconfig",
@@ -359,7 +379,11 @@
         "foreground": "#00abc1de"
       }
     },
-    // css
+    /**
+    * ----------------------------------
+    * CSS
+    * ----------------------------------
+    **/
     {
       "scope": "entity.other.attribute-name.class.css, entity.other.attribute-name.id.css, variable.argument.css",
       "settings": {
@@ -456,28 +480,101 @@
         "foreground": "#88f1ffc2"
       }
     },
-
-    // markdown
+    /**
+    * ----------------------------------
+    * Markdown
+    * ----------------------------------
+    **/
     {
       "name": "markdown",
-      "scope": "markup.heading.markdown, punctuation.definition.metadata.markdown, punctuation.definition.list.begin.markdown, meta.separator.markdown, punctuation.definition.quote.begin.markdown",
+      "scope": "punctuation.definition.metadata.markdown, punctuation.definition.list.begin.markdown, punctuation.definition.quote.begin.markdown",
       "settings": {
         "foreground": "#ffcc95e7"
       }
     },
     {
+      "name": "Horizontal rule",
+      "scope": "meta.separator.markdown",
+      "settings": {
+        "foreground": "#ffcc95e7"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": "punctuation.definition.constant.restructuredtext",
+      "settings": {
+        "foreground": "#ffcc95e7"
+      }
+    },
+    {
+      "name": "Blockquotes",
+      "scope": "markup.quote",
+      "settings": {
+        "foreground": "#ffcc95e7",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Code blocks",
+      "scope": "fenced.raw.inner.restructuredtext, markup.raw.inner.restructuredtext, markup.fenced_code.block.markdown, punctuation.definition.markdown",
+      "settings": {
+        "foreground": "#93A8AC"
+      }
+    },
+    {
+      "name": "Paragraphs",
       "scope": "meta.paragraph.markdown",
       "settings": {
         "foreground": "#93A8AC"
       }
     },
     {
-      "scope": "beginning.punctuation.definition.list.markdown",
+      "scope": "beginning.punctuation.definition.list.markdown, beginning.punctuation.definition.quote.markdown, punctuation.definition.link.restructuredtext",
       "settings": {
         "foreground": "#64ffdbda"
       }
     },
-    // Vue configs
+    {
+      "name": "Underline",
+      "scope": "markup.underline",
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Bold",
+      "scope": "markup.bold",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Italic",
+      "scope": "markup.italic",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Heading",
+      "scope": "markup.heading",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#ffcc95e7"
+      }
+    },
+    {
+      "name": "Link text and image alt text",
+      "scope": "meta.link.reference.def.restructuredtext, punctuation.definition.directive.restructuredtext, string.other.link.description, string.other.link.title",
+      "settings": {
+        "foreground": "#ff2c6bf1"
+      }
+    },
+    /**
+    * ----------------------------------
+    * Vue configs
+    * ----------------------------------
+    **/
     {
       "scope": "entity.name.tag.template.html, keyword.control.export.js, keyword.control.export.tsx",
       "settings": {
@@ -496,7 +593,11 @@
         "foreground": "#64ffdbda"
       }
     },
-    // webpack
+    /**
+    * ----------------------------------
+    * Webpack
+    * ----------------------------------
+    **/
     {
       "scope": "support.type.object.module.js, support.type.object.module.tsx, string.regexp.js, string.regexp.tsx, support.variable.object.node.js, support.variable.object.node.tsx",
       "settings": {
@@ -509,7 +610,11 @@
         "foreground": "#a1d7da"
       }
     },
-    // Php
+    /**
+    * ----------------------------------
+    * Php
+    * ----------------------------------
+    **/
     {
       "scope": "punctuation.definition.variable.php",
       "settings": {
@@ -541,19 +646,19 @@
       }
     },
     {
-      "scope": "support.class.builtin.php, entity.name.function.php, entity.other.alias.php, support.constant.std.php, constant.other.class.php",
+      "scope": "support.class.builtin.php, entity.name.function.php, entity.other.alias.php, support.constant.std.php, constant.other.class.php, meta.function-call.php",
       "settings": {
         "foreground": "#64f5ffda"
       }
     },
     {
-      "scope": "support.class.php, support.other.namespace.php, variable.other.class.php, variable.other.property.php, support.constant.core.php, support.constant.ext.php, support.class.exception.php",
+      "scope": "support.class.php, variable.other.php, support.other.namespace.php, variable.other.class.php, variable.other.property.php, support.constant.core.php, support.constant.ext.php, support.class.exception.php",
       "settings": {
         "foreground": "#a0e3e7"
       }
     },
     {
-      "scope": "storage.modifier.php",
+      "scope": "storage.modifier.php, storage.type.php",
       "settings": {
         "foreground": "#09cbdd"
       }
