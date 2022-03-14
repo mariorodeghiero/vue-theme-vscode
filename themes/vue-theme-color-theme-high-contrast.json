@@ -24,6 +24,7 @@
     "inputValidation.infoBackground": "#002933",
     "activityBar.background": "#002933",
     "activityBar.foreground": "#14c5ab",
+    "activityBar.inactiveForeground": "#9e9e9e",
     "editor.background": "#002933",
     "editorCursor.foreground": "#ffffff",
     "editor.foreground": "#E6E6E6",
