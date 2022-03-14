@@ -464,7 +464,7 @@
     {
       "scope": "meta.paragraph.markdown",
       "settings": {
-        "foreground": "#93A8AC"
+        "foreground": "#9e9e9e"
       }
     },
     {
@@ -483,7 +483,7 @@
     {
       "scope": "text.html.vue-html",
       "settings": {
-        "foreground": "#bdbdbd"
+        "foreground": "#ffffff"
       }
     },
     {
