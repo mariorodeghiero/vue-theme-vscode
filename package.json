@@ -36,6 +36,11 @@
         "label": "Vue Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/vue-theme-color-theme.json"
+      },
+      {
+        "label": "Vue Theme High Contrast",
+        "uiTheme": "hc-black",
+        "path": "./themes/vue-theme-color-theme-high-contrast.json"
       }
     ]
   },
