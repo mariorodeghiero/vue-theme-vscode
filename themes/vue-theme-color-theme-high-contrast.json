@@ -4,7 +4,7 @@
   "type": "high-contrast",
   "colors": {
     "panel.background": "#002933",
-    "panelTitle.activeBorder": "#19f9d8",
+    "panelTitle.activeBorder": "#14c5ab",
     "focusBorder": "#00b7ff",
     "contrastBorder": "#14c5ab",
     "contrastActiveBorder": "#14c5ab",
@@ -243,7 +243,7 @@
     {
       "scope": "constant.language.json, constant.numeric.json",
       "settings": {
-        "foreground": "#ee475e"
+        "foreground": "#ff0e56"
       }
     },
     {
@@ -339,7 +339,7 @@
     {
       "scope": "meta.flow-sequence.yaml",
       "settings": {
-        "foreground": "#ee475e"
+        "foreground": "#ff0e56"
       }
     },
     {
