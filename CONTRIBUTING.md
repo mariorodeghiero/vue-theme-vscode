@@ -17,9 +17,9 @@
 
 ## How to test the changes in the file \*\*
 
-1 - Open your VS Code
-2 - Click on the tab View → Run
-3 - Click Launch Extension. This will open up another VS Code Editor
-4 - Make changes and it will reflected in the other editor that opened in step 3.
+1. Open your VS Code
+2. Click on the tab View → Run
+3. Click Launch Extension. This will open up another VS Code Editor
+4. Make changes and it will reflected in the other editor that opened in step 3.
 
 ### [<-- Back](https://github.com/mariorodeghiero/vue-theme-vscode)
