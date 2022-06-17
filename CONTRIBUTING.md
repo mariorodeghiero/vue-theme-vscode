@@ -15,7 +15,7 @@
 4. Install the file **vue-themev-x.x.x.vix** to test.
 5. If ok, send me a PR.
 
-## How to test the changes in the file \*\*
+## How to test the changes
 
 1. Open your VS Code
 2. Click on the tab View → Run
