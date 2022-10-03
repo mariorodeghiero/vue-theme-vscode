@@ -40,12 +40,12 @@
     "sideBarSectionHeader.foreground": "#bcbdbd",
     "icon.foreground": "#16c9afb7",
     "titleBar.activeBackground": "#002b36",
-    "titleBar.activeForeground": "#aeb1b0",
+    "titleBar.activeForeground": "#09cbddbd",
     "titleBar.inactiveBackground": "#002b36",
-    "titleBar.inactiveForeground": "#aeb1b0",
+    "titleBar.inactiveForeground": "#09cbddbd",
     "tab.activeBackground": "#002b36",
-    "tab.activeForeground": "#f8f8f0cc",
-    "tab.activeBorder": "#19f9d8",
+    "tab.activeForeground": "#a1d7dadf",
+    "tab.activeBorder": "#19f9d7ed",
     "tab.hoverBorder": "#bcbdbd",
     "tab.inactiveBackground": "#002b36",
     "tab.inactiveForeground": "#717272",
@@ -80,11 +80,11 @@
   },
   "tokenColors": [
     /**
-     *
+     * ----------------------------------
      * Comment
-     */
+     * ----------------------------------
+     **/
     {
-      "name": "comments",
       "scope": "comment",
       "settings": {
         "foreground": "#8a8787",
@@ -92,9 +92,10 @@
       }
     },
     /**
-     *
+     * ----------------------------------
      * Keywords
-     */
+     * ----------------------------------
+     **/
     {
       "name": "import, from, export",
       "scope": " keyword.control.import, keyword.control.from, keyword.control.export, keyword.generator.asterisk",
@@ -140,10 +141,23 @@
         "foreground": "#64ffdbda"
       }
     },
+    {
+      "scope": "keyword.control.switch",
+      "settings": {
+        "foreground": "#09cbdd"
+      }
+    },
     /**
-     *
+     * ----------------------------------
      * Storage
-     */
+     * ----------------------------------
+     **/
+    {
+      "scope": "storage.type.function",
+      "settings": {
+        "foreground": "#f48fb1"
+      }
+    },
     {
       "name": "const, let, import",
       "scope": "storage.type, support.class.error",
@@ -152,30 +166,22 @@
       }
     },
     {
+      "name": "{} , ()",
+      "scope": "meta.block.tsx, source.tsx",
+      "settings": {
+        "foreground": "#c5c5c5f1"
+      }
+    },
+    /**
+     * ----------------------------------
+     * Strings
+     * ----------------------------------
+     **/
+    {
       "name": "string between quotes and template literals",
-      "scope": "string.quoted.double, string.template",
+      "scope": "string.quoted.double, string.template string.quoted.single",
       "settings": {
         "foreground": "#00abc1da"
-      }
-    },
-    {
-      "name": "color quotes double, simple and template",
-      "scope": "punctuation.definition.string.begin, punctuation.definition.string.end, punctuation.definition.string.template.begin, punctuation.definition.string.template.end",
-      "settings": {
-        "foreground": "#00acc1"
-      }
-    },
-    {
-      "scope": "meta.brace.round, punctuation.terminator.statement",
-      "settings": {
-        "foreground": "#c5c5c5f1"
-      }
-    },
-    {
-      "name": "{} , ()",
-      "scope": "meta.block.tsx, source.tsx, punctuation.separator.comma, punctuation.definition.block, punctuation.definition.parameters.begin, punctuation.definition.parameters.end",
-      "settings": {
-        "foreground": "#c5c5c5f1"
       }
     },
     {
@@ -185,29 +191,19 @@
         "foreground": "#FFCC95"
       }
     },
+    /**
+     * ----------------------------------
+     * Variables
+     * ----------------------------------
+     **/
     {
-      "scope": "keyword.control.switch",
-      "settings": {
-        "foreground": "#079ba8"
-      }
-    },
-    {
-      "name": "sigle string quote",
-      "scope": "string.quoted.single",
-      "settings": {
-        "foreground": "#00abc1de"
-      }
-    },
-    {
-      "name": "this",
       "scope": "variable.language.this, constant.language.boolean.true, constant.language.boolean.false, constant.language.undefined, constant.language.null",
       "settings": {
         "foreground": "#f48fb1dc"
       }
     },
     {
-      "name": "variable object",
-      "scope": "variable.other.object.property, variable.other.property, meta.template.expression, support.variable.property, variable.language.super, support.class.component, entity.name.tag.js, entity.name.tag.tsx, entity.name.tag.style.html",
+      "scope": "variable.other.object.property, variable.other.property, meta.template.expression, support.variable.property, variable.language.super, support.class.component, entity.name.tag, entity.name.tag.style.html",
       "settings": {
         "foreground": "#ff2c6bf1"
       }
@@ -232,9 +228,14 @@
         "foreground": "#ff5622de"
       }
     },
+    /**
+     * ----------------------------------
+     * Support
+     * ----------------------------------
+     **/
     {
       "name": "console.log",
-      "scope": "support.class.console, support.function.console, meta.object-literal.key, punctuation.definition.block.tag.jsdoc",
+      "scope": "support.class.console, support.function.console, meta.object-literal.key",
       "settings": {
         "foreground": "#ffcc95e7"
       }
@@ -253,22 +254,56 @@
       }
     },
     {
-      "scope": " storage.type.function",
+      "scope": "support.function.dom",
       "settings": {
-        "foreground": "#f48fb1"
+        "foreground": "#ffcc95e3"
       }
     },
+    /**
+     * ----------------------------------
+     * Punctuation
+     * ----------------------------------
+     **/
+    {
+      "scope": "punctuation.definition.block.tag.jsdoc",
+      "settings": {
+        "foreground": "#ffcc95e7"
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag.begin, punctuation.definition.tag.end",
+      "settings": {
+        "foreground": "#c5c5c5f1"
+      }
+    },
+    {
+      "scope": "punctuation.definition.string.begin, punctuation.definition.string.end, punctuation.definition.string.template.begin, punctuation.definition.string.template.end",
+      "settings": {
+        "foreground": "#00acc1"
+      }
+    },
+    {
+      "scope": "punctuation.terminator.statement, punctuation.separator.comma, punctuation.definition.block, punctuation.definition.parameters.begin, punctuation.definition.parameters.end",
+      "settings": {
+        "foreground": "#c5c5c5f1"
+      }
+    },
+    {
+      "scope": "meta.brace.round",
+      "settings": {
+        "foreground": "#c5c5c5f1"
+      }
+    },
+    /**
+     * ----------------------------------
+     * JSON
+     * ----------------------------------
+     **/
     {
       "name": "json config",
       "scope": "support.type.property-name.json, punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json",
       "settings": {
         "foreground": "#FFCC95"
-      }
-    },
-    {
-      "scope": "support.function.dom",
-      "settings": {
-        "foreground": "#ffcc95e3"
       }
     },
     {
@@ -283,6 +318,11 @@
         "foreground": "#ee475e"
       }
     },
+    /**
+     * ----------------------------------
+     * HTML
+     * ----------------------------------
+     **/
     {
       "name": "html tag",
       "scope": "entity.name.tag.script.html, entity.name.tag.structure.any.html, entity.name.tag.html, entity.name.tag.inline.any.html, entity.name.tag.block.any.html, entity.name.tag.other.html, meta.tag.sgml.doctype.html",
@@ -299,7 +339,7 @@
     },
     {
       "name": "gt and lt",
-      "scope": "punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.js, punctuation.definition.tag.begin.tsx, punctuation.definition.tag.end.js, punctuation.definition.tag.end.tsx",
+      "scope": "punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html",
       "settings": {
         "foreground": "#c5c5c5f1"
       }
@@ -364,7 +404,7 @@
      * ----------------------------------
      **/
     {
-      "scope": "entity.name.tag.yaml",
+      "scope": "entity.name.tag.yaml, variable.other.key.toml, entity.name.section.toml, entity.name.function.target.makefile",
       "settings": {
         "foreground": "#e4e0bd"
       }
@@ -385,7 +425,8 @@
       "name": "aliases",
       "scope": "variable.other.alias.yaml",
       "settings": {
-        "foreground": "#00ABC1DA"
+        "foreground": "#00ABC1DA",
+        "fontStyle": "italic underline"
       }
     },
     {
@@ -399,6 +440,18 @@
       "scope": "string.unquoted.plain.in.yaml",
       "settings": {
         "foreground": "#00ffffcc"
+      }
+    },
+    /**
+     * ----------------------------------
+     * Dates / timestamps
+     * ----------------------------------
+     **/
+    {
+      "name": "Dates / timestamps",
+      "scope": "constant.other.timestamp, constant.other.date",
+      "settings": {
+        "foreground": "#a1d7da"
       }
     },
     /**
@@ -735,8 +788,9 @@
       }
     },
     /**
-     *
+     * ----------------------------------
      * Others
+     * ----------------------------------
      **/
     {
       "scope": "meta.preprocessor.haskell",
@@ -769,4 +823,5 @@
  * TODO:
  * - Metablock
  * - source
+ * - Docstrings
  */
