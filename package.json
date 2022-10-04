@@ -2,7 +2,7 @@
   "name": "vue-theme",
   "version": "1.1.5",
   "displayName": "Vue Theme",
-  "description": "Theme inspired by vue.js",
+  "description": "Theme for Visual Studio Code inspired by javascript, with support for more popular languages and a perfect harmony of colors",
   "publisher": "mariorodeghiero",
   "icon": "images/vue.png",
   "galleryBanner": {
@@ -10,6 +10,9 @@
     "theme": "dark"
   },
   "homepage": "https://mariorodeghiero.github.io/vue-theme/",
+  "maintainers": [
+		"Mario Rodeghiero <mario.rodeghiero@gmail.com>"
+	],
   "repository": {
     "type": "git",
     "url": "https://github.com/mariorodeghiero/vue-theme-vscode.git"
@@ -22,7 +25,13 @@
   ],
   "keywords": [
     "VSCode",
-    "Themes"
+    "Themes",
+    "theme",
+    "color-theme",
+    "vue-theme",
+    "vue",
+    "react",
+    "reactjs"
   ],
   "engines": {
     "vscode": "^1.19.0"
@@ -44,5 +53,5 @@
       }
     ]
   },
-  "license": "SEE LICENSE IN LICENSE"
+  "license": "MIT"
 }

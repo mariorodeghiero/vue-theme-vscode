@@ -15,4 +15,11 @@
 4. Install the file **vue-themev-x.x.x.vix** to test.
 5. If ok, send me a PR.
 
+## How to test the changes
+
+1. Open your VS Code
+2. Click on the tab View → Run
+3. Click Launch Extension. This will open up another VS Code Editor
+4. Make changes and it will reflected in the other editor that opened in step 3.
+
 ### [<-- Back](https://github.com/mariorodeghiero/vue-theme-vscode)
