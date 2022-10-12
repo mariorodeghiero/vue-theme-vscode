@@ -82,7 +82,7 @@
   "tokenColors": [
     {
       "name": "comments",
-      "scope": "comment",
+      "scope": "comment, string.quoted.docstring.multi.python, punctuation.definition.string.begin.python, punctuation.definition.string.end.python, string.quoted.docstring.raw.multi.python",
       "settings": {
         "foreground": "#9e9e9e",
         "fontStyle": "bold italic"
@@ -590,6 +590,61 @@
       "scope": "keyword.other.phpdoc.php, keyword.other.type.php",
       "settings": {
         "foreground": "#53a5b9"
+      }
+    },
+    /**
+     * ----------------------------------
+     * Python
+     * ----------------------------------
+     **/
+    {
+      "scope": "source.python, storage.type.string.python",
+      "settings": {
+        "foreground": "#a7deec"
+      }
+    },
+    {
+      "scope": "meta.member.access.python, meta.function-call.arguments.python, meta.item-access.python",
+      "settings": {
+        "foreground": "#a7deec"
+      }
+    },
+    {
+      "scope": "variable.language.special.self.python",
+      "settings": {
+        "foreground": "#a7deec"
+      }
+    },
+    {
+      "scope": "meta.attribute.python",
+      "settings": {
+        "foreground": "#ee475e"
+      }
+    },
+    {
+      "scope": "meta.function-call.generic.python",
+      "settings": {
+        "foreground": "#09cbdd"
+      }
+    },
+    {
+      "name": "number",
+      "scope": "constant.numeric.dec.python",
+      "settings": {
+        "foreground": "#ff5622de"
+      }
+    },
+    {
+      "name": "number",
+      "scope": "string.quoted.single.python, punctuation.definition.string.end.python, punctuation.definition.string.begin.python",
+      "settings": {
+        "foreground": "#00abc1da"
+      }
+    },
+    {
+      "scope": "constant.language.python",
+      "settings": {
+        "foreground": "#f48fb1dc"
       }
     }
   ]

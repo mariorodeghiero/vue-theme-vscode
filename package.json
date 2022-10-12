@@ -1,6 +1,6 @@
 {
   "name": "vue-theme",
-  "version": "1.1.5",
+  "version": "2.0.1",
   "displayName": "Vue Theme",
   "description": "Theme for Visual Studio Code inspired by javascript, with support for more popular languages and a perfect harmony of colors",
   "publisher": "mariorodeghiero",
@@ -11,8 +11,8 @@
   },
   "homepage": "https://mariorodeghiero.github.io/vue-theme/",
   "maintainers": [
-		"Mario Rodeghiero <mario.rodeghiero@gmail.com>"
-	],
+    "Mario Rodeghiero <mario.rodeghiero@gmail.com>"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/mariorodeghiero/vue-theme-vscode.git"
