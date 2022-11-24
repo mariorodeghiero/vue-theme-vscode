@@ -51,7 +51,10 @@ Yellow       | `#ffcc95`
 ## Contributors
 
 Many thanks to all the people who contribute to this project:
-<a href="https://opencollective.com/vue-theme"><img src="https://opencollective.com/vue-theme/contributors.svg?width=890" /></a>
+
+<a href="https://github.com/mariorodeghiero/vue-theme-vscode/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=mariorodeghiero/vue-theme-vscode&max=500" alt="List of contributors" width="26%"/>
+</a>
 
 ## Contributing
 
