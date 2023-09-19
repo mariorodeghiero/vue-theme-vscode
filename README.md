@@ -1,7 +1,5 @@
 <div align="center">
 
-<a href="https://www.buymeacoffee.com/vuetheme" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
 [![Installs](https://img.shields.io/visual-studio-marketplace/i/mariorodeghiero.vue-theme.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
 [![Version](https://img.shields.io/visual-studio-marketplace/v/mariorodeghiero.vue-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
 [![Rating](https://img.shields.io/visual-studio-marketplace/r/mariorodeghiero.vue-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
@@ -11,6 +9,8 @@
 <div align="center">
 
 ![Example running](images/example.png)
+
+<a href="https://www.buymeacoffee.com/vuetheme" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 </div>
 
