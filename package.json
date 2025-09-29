@@ -1,6 +1,6 @@
 {
   "name": "vue-theme",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "displayName": "Vue Theme",
   "description": "Theme for Visual Studio Code inspired by javascript, with support for more popular languages and a perfect harmony of colors",
   "publisher": "mariorodeghiero",
@@ -34,7 +34,7 @@
     "reactjs"
   ],
   "engines": {
-    "vscode": "^1.19.0"
+    "vscode": "^1.85.0"
   },
   "scripts": {
     "build": "vsce package"
