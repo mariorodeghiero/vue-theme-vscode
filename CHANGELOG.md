@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2.0.3 - 2025-09-29
+
+ - GO
+ - PHP
+ - Python
+ - yml
+ - typescript
+
+
 ## 1.1.5 - 2021-02-16
 
  - support css variable
