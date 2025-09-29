@@ -722,7 +722,7 @@
       }
     },
     {
-      "scope": "constant.language.php, constant.other.php",
+      "scope": ["constant.language.php, constant.other.php, punctuation.section.embedded.begin.php"],
       "settings": {
         "foreground": "#ff2c6bf1"
       }
@@ -870,6 +870,156 @@
       "settings": {
         "foreground": "#ff2c6be0"
       }
+    },
+    {
+      "name": "PHP Keywords",
+      "scope": "keyword.control.php",
+      "settings": { "foreground": "#19f9d8" }
+    },
+    // 🐍 Python Support
+    {
+      "name": "Python Built-ins and Calls",
+      "scope": [
+        "support.function.builtin.python",
+        "meta.function-call.python"
+      ],
+      "settings": { "foreground": "#09cbdd" }
+    },
+    {
+      "name": "Python Constants",
+      "scope": "constant.language.python",
+      "settings": { "foreground": "#ff5622" }
+    },
+    {
+      "name": "Python Parameters",
+      "scope": "variable.parameter.function.python",
+      "settings": { "foreground": "#f48fb1" }
+    },
+    // 🧠 TypeScript Support
+    {
+      "name": "TypeScript Types and Primitives",
+      "scope": [
+        "support.type.primitive.ts",
+        "support.type.builtin.ts",
+      ],
+      "settings": { "foreground": "#09cbdd" }
+    },
+    {
+      "name": "TypeScript Parameters",
+      "scope": "variable.parameter.ts",
+      "settings": { "foreground": "#f48fb1" }
+    },
+    {
+      "name": "TypeScript Function Calls",
+      "scope": "meta.function-call.ts, entity.name.type.ts",
+      "settings": { "foreground": "#09cbdd" }
+    },
+     {
+      "name": "TypeScript names",
+      "scope": "entity.name.type.interface.ts",
+      "settings": { "foreground": "#09cbdd" }
+    },
+    {
+      "name": "TypeScript grey",
+      "scope": "support.type.primitive.ts",
+      "settings": { "foreground": "#e6e6e6" }
+    },
+    // GO
+    {
+      "name": "Go Function Keyword",
+      "scope": "keyword.function.go",
+      "settings": {
+        "foreground": "#f48fb1"
+      }
+    },
+    {
+      "name": "Go Variables",
+      "scope": [
+        "variable.other.go",
+        "variable.other.assignment.go",
+        "variable.parameter.go"
+      ],
+      "settings": {
+        "foreground": "#a1d7da"
+      }
+    },
+    {
+      "name": "Go Strings",
+      "scope": "string.quoted.raw.go",
+      "settings": {
+        "foreground": "#ffcc95"
+      }
+    },
+     {
+      "name": "Go type",
+      "scope": "entity.name.type.go",
+      "settings": {
+        "foreground": "#64ffdb"
+      }
+    },
+    {
+      "name": "Go Control Keywords",
+      "scope": [
+        "keyword.control.go",
+        "keyword.var.go",
+        "keyword.package.go",
+        "keyword.type.go",
+        "variable.other.property.go"
+      ],
+      "settings": {
+        "foreground": "#f48fb1"
+      }
+    },
+    {
+      "name": "Go Struct Keyword",
+      "scope": "keyword.struct.go",
+      "settings": {
+        "foreground": "#f48fb1"
+      }
+    },
+    // ⚙️ CI/CD & YAML Support
+    {
+      "name": "YAML Tags and Properties",
+      "scope": [
+        "entity.name.tag.yaml",
+        "support.type.property-name.yaml"
+      ],
+      "settings": { "foreground": "#ffcc95" }
+    },
+    {
+      "name": "YAML Keys and Variables",
+      "scope": [
+        "string.unquoted.mapping.key.yaml",
+        "variable.other.yaml"
+      ],
+      "settings": { "foreground": "#09cbdd" }
+    },
+    {
+      "name": "Docker Keywords",
+      "scope": "keyword.control.dockerfile",
+      "settings": { "foreground": "#19f9d8" }
+    },
+    {
+      "name": "GitHub Actions Functions",
+      "scope": "entity.name.function.github-actions",
+      "settings": { "foreground": "#09cbdd" }
     }
-  ]
+  ],
+  "semanticTokenColors": {
+    "variable": { "foreground": "#e6e6e6" },
+    "variable.readonly": { "foreground": "#FF2C6D" },
+    "parameter": { "foreground": "#09cbdd" },
+    "function": { "foreground": "#ffcc95" },
+    "type": { "foreground": "#64ffdb" },
+    "class": { "foreground": "#f48fb1" },
+    "namespace": { "foreground": "#f48fb1" },
+    "enumMember": { "foreground": "#ff5622" },
+    "property": { "foreground": "#ffcc95" },
+    "keyword": { "foreground": "#19f9d8" },
+    "operator": { "foreground": "#19f9d8" },
+    "punctuation": { "foreground": "#8a8787" },
+    "string": { "foreground": "#ffcc95" },
+    "number": { "foreground": "#ff5622" },
+    "comment": { "foreground": "#8a8787" }
+  }
 }
