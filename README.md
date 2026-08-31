@@ -1,8 +1,8 @@
 <div align="center">
 
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/mariorodeghiero.vue-theme.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
-[![Version](https://img.shields.io/visual-studio-marketplace/v/mariorodeghiero.vue-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/mariorodeghiero.vue-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
+[![Installs](https://vsmarketplacebadges.dev/installs-short/mariorodeghiero.vue-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
+[![Version](https://vsmarketplacebadges.dev/version/mariorodeghiero.vue-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
+[![Rating](https://vsmarketplacebadges.dev/rating/mariorodeghiero.vue-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mariorodeghiero.vue-theme)
 [![The MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 </div>
 
